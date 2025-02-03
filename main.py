@@ -14,7 +14,7 @@ te ispišite na ekran odgovarajuće vrijednosti, za:
 
 main_amount = 20000
 yearly_interest = (5 / 100)
-time = 25
+time = 35
 
 # Glavni dio programa - izracuni i manipulacija podacima
 
@@ -25,13 +25,22 @@ total_income = income + main_amount
 # Prikaz podataka
 
 print(
-    'Nakon 25 godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
+    'Nakon',
+    time,
+    'godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
     income,
     'EUR'
 )
 
 print(
-    'Nakon 25 godina UKUPNI prihod od 20000 EUR uz kamatnu stopu 5% je:',
+    'Nakon',
+    time,
+    'godina UKUPNI prihod od 20000 EUR uz kamatnu stopu 5% je:',
     total_income,
     'EUR'
 )
+
+
+
+
+# 'Nakon 25 godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
