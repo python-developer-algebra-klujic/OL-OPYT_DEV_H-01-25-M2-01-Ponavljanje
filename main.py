@@ -15,7 +15,7 @@ CHAR = 85
 
 # Uvodni ekran
 print()
-print('Python Interest Calculator')
+print('\tPython Interest Calculator')
 print()
 print('#'*CHAR)
 print()
@@ -34,34 +34,14 @@ total_income = income + main_amount
 
 
 # Prikaz podataka
-
-print(
-    'Nakon',
-    time,
-    'godina prihod od',
-    main_amount,
-    'EUR uz kamatnu stopu',
-    yearly_interest,
-    '% je:',
-    income,
-    'EUR'
-)
-
-print(
-    'Nakon',
-    time,
-    'godina UKUPNI prihod od',
-    main_amount,
-    'EUR uz kamatnu stopu',
-    yearly_interest,
-    '% je:',
-    total_income,
-    'EUR'
-)
+print()
+print(f'Nakon {time} godina, prihod od {main_amount} EUR, uz kamatnu stopu {yearly_interest}%, je: {income} EUR.')
+print()
+print(f'Nakon {time} godina, UKUPNI prihod od {main_amount} EUR, uz kamatnu stopu {yearly_interest}%, je: {total_income} EUR.')
 
 print()
 print('#'*CHAR)
 print()
 
-message = 'Nakon {} godina prihod od {} EUR uz kamatnu stopu {}% je: {} EUR.'.format(time, main_amount, yearly_interest, income)
-print(message)
+# message = 'Nakon {} godina prihod od {} EUR uz kamatnu stopu {}% je: {} EUR.'.format(time, main_amount, yearly_interest, income)
+# print(message)
