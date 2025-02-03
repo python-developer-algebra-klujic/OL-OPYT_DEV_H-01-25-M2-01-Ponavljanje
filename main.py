@@ -12,9 +12,9 @@ te ispišite na ekran odgovarajuće vrijednosti, za:
 
 # Deklaracije i unos vrijednosti
 
-main_amount = 30000
-yearly_interest = 3.5
-time = 20
+main_amount = int(input('Unesite iznos glavnice: ')) # 30000
+yearly_interest = float(input('Unesite iznos godisnje kamatne stope (npr. 3.5): ')) # 3.5
+time = int(input('Unesite vrijeme roka orocavanja: ')) # 20
 
 
 # Glavni dio programa - izracuni i manipulacija podacima
