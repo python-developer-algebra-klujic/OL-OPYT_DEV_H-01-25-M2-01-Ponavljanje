@@ -63,4 +63,5 @@ print()
 print('#'*CHAR)
 print()
 
-# 'Nakon 25 godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
+message = 'Nakon {} godina prihod od {} EUR uz kamatnu stopu {}% je: {} EUR.'.format(time, main_amount, yearly_interest, income)
+print(message)
