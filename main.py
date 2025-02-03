@@ -10,11 +10,14 @@ te ispišite na ekran odgovarajuće vrijednosti, za:
     t = vrijeme u godinama
 '''
 
+CHAR = 85
+
+
 # Uvodni ekran
 print()
 print('Python Interest Calculator')
 print()
-print('#'*70)
+print('#'*CHAR)
 print()
 
 # Deklaracije i unos vrijednosti
@@ -57,7 +60,7 @@ print(
 )
 
 print()
-print('#'*70)
+print('#'*CHAR)
 print()
 
 # 'Nakon 25 godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
