@@ -10,6 +10,13 @@ te ispišite na ekran odgovarajuće vrijednosti, za:
     t = vrijeme u godinama
 '''
 
+# Uvodni ekran
+print()
+print('Python Interest Calculator')
+print()
+print('#'*70)
+print()
+
 # Deklaracije i unos vrijednosti
 
 main_amount = int(input('Unesite iznos glavnice: ')) # 30000
@@ -49,7 +56,8 @@ print(
     'EUR'
 )
 
-
-
+print()
+print('#'*70)
+print()
 
 # 'Nakon 25 godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
