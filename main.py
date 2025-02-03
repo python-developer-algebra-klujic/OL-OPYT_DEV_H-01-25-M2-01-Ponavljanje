@@ -12,13 +12,14 @@ te ispišite na ekran odgovarajuće vrijednosti, za:
 
 # Deklaracije i unos vrijednosti
 
-main_amount = 20000
-yearly_interest = (5 / 100)
-time = 35
+main_amount = 30000
+yearly_interest = 3.5
+time = 20
+
 
 # Glavni dio programa - izracuni i manipulacija podacima
 
-income = main_amount * yearly_interest * time
+income = main_amount * (yearly_interest / 100) * time
 total_income = income + main_amount
 
 
@@ -27,7 +28,11 @@ total_income = income + main_amount
 print(
     'Nakon',
     time,
-    'godina prihod od 20000 EUR uz kamatnu stopu 5% je:',
+    'godina prihod od',
+    main_amount,
+    'EUR uz kamatnu stopu',
+    yearly_interest,
+    '% je:',
     income,
     'EUR'
 )
@@ -35,7 +40,11 @@ print(
 print(
     'Nakon',
     time,
-    'godina UKUPNI prihod od 20000 EUR uz kamatnu stopu 5% je:',
+    'godina UKUPNI prihod od',
+    main_amount,
+    'EUR uz kamatnu stopu',
+    yearly_interest,
+    '% je:',
     total_income,
     'EUR'
 )
